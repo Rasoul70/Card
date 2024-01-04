@@ -1,0 +1,54 @@
+body {
+    min-width: 100vh;
+    direction: rtl;
+}
+
+.card2 {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    height: 40px;
+    border: solid;
+    border-radius: 1.2rem;
+}
+
+.card3:hover .card2 {
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    height: 40px;
+    border: solid;
+    border-radius: 1.2rem;
+    background-color: red;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    visibility: visible;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 250px;
+    min-height: 300px;
+    border: solid;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1.2rem;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.card1 {
+    width: 100%;
+    padding: 2px;
+    align-items: center;
+}
